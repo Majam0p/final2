@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Cards - Modern Cooking Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .recipe-card {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background: #fff8e1;
+        }
+        .recipe-card img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The college recipe book</h1>
+        <p>The site dedicated to giving college students simple, cheap, basic nutrition while having a panic attack at 3am because you procrastinated your final</p>
+    </header>
+    <nav>
+        <a href="Cooking.html">Home</a>
+        <a href="mobilerecipe.html">Recipes</a>
+        <a href="aboutus.html">About</a>
+        <a href="contactus.html">Contact</a>
+    </nav>
+    <section id="recipes">
+        <div class="recipe-card">
+            <img src="https://www.budgetbytes.com/wp-content/uploads/2024/04/Avocado-Toast-Close-500x500.jpg" alt="Avocado Toast">
+            <div>
+            <h3>Avocado Toast</h3>
+            <p>A quick and healthy breakfast option with creamy avocado and a sprinkle of spices.</p>
+        </div>
+        </div>
+        <div class="recipe-card">
+            <img src="https://lobbsfarmshop.com/cdn/shop/products/09694-lobbs-homemade-frozen-chicken-curry-large-20220510-3040.jpg?v=1655546579" alt="Chicken Curry">
+            <div>
+                <h3>Grilled Chicken</h3>
+                <p>Microwave and access to Safeway frozen dinners required</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="https://lemonsandzest.com/wp-content/uploads/2022/06/Smores-Brownie-Skillet-2.15.jpg" alt="Chicken Breast">
+            <div>
+                <h3>Grilled Chicken</h3>
+                <p>Protein at it's purest form. The elegance and simplicity speaks for itself. Lettuce not included </p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="https://www.relish.com/cdn-cgi/image/fit=cover,f=auto,w=412/https://platform.relish.com/wp-content/uploads/2023/05/4169_K_2.png" alt="Raspberry443">
+        <div>
+            <h3>A single raspberry</h3>
+            <p>Refreshing and packed with nutrients </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> 2024 Fake Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
