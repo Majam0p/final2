@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Cooking Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8b400;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .recipe-card {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+            padding: 10px;
+            background: #fff8e1;
+        }
+        .recipe-card img {
+            max-width: 150px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The college recipe book</h1>
+        <p>The site dedicated to giving college students simple, cheap, basic nutrition while having a panic attack at 3am because you procrastinated your final</p>
+    </header>
+    <nav>
+        <a href="mobilerecipe.html">Recipes</a>
+        <a href="Cooking.html">Home</a>
+        <a href="aboutus.html">About</a>
+        <a href="contactus.html">Contact</a>
+    </nav>
+    <section id="recipes">
+        <h2>Featured Recipes</h2>
+        <div class="recipe-card">
+            <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese-500x375.jpg" alt="Classic Spaghetti Bolognese">
+            <div>
+                <h3>Grilled Cheese</h3>
+                <p>Simple, elegant, and full of nostalgia. Your perfect lunch</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="https://www.allrecipes.com/thmb/_HarMuXPTsz7RboeH1swlZaRGQI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/217193cheddar-bacon-mac-and-cheeseFranceC4x2-0226785f26094eb291deb3ca8afd8693.jpg" alt="Vegetarian Tacos">
+            <div>
+                <h3>Mac and Cheese</h3>
+                <p>Fresh, colorful, and full of flavor! All you need is a pot, water, and Kraft mac and cheese</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a community for food enthusiasts to share and explore delicious recipes.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email us at: <a href="mailto:info@moderncookinghub.com">info@fakecooking.com</a></p>
+    </section>
+    <footer>
+        <p> 2024 Fake Company All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
